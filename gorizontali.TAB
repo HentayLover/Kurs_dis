@@ -1,0 +1,17 @@
+!table
+!version 300
+!charset WindowsCyrillic
+
+Definition Table
+  Type NATIVE Charset "WindowsCyrillic"
+  Fields 10
+    FNODE_ Decimal (11, 0) ;
+    TNODE_ Decimal (11, 0) ;
+    LPOLY_ Decimal (11, 0) ;
+    RPOLY_ Decimal (11, 0) ;
+    LENGTH Decimal (20, 2) ;
+    PHLR_ Decimal (11, 0) ;
+    PHLR_ID Decimal (11, 0) ;
+    PHLR_CODE Decimal (8, 0) ;
+    PHLR_ABS Decimal (9, 1) ;
+    CONT Decimal (2, 0) ;
